@@ -168,7 +168,8 @@ Insolator.addRecipe(item*3, item, <thermalfoundation:fertilizer:1>, 3000);
 Insolator.addRecipe(item*5, item, <thermalfoundation:fertilizer:2>, 5000);
 }
 
-
+//Grow Strange Crystal from EBW Magic Crystal
+Insolator.addRecipe(<thaumicaugmentation:strange_crystal>, <contenttweaker:vis_meal>, <ebwizardry:magic_crystal>, 120000, <ebwizardry:grand_crystal>, 5, 10000);
 
 // Watering Cans
 recipes.removeShaped(<thermalcultivation:watering_can>, [[<thermalfoundation:material:128>, null, null],[<thermalfoundation:material:128>, <minecraft:bucket>, <thermalfoundation:material:128>], [null, <thermalfoundation:material:128>, null]]);
