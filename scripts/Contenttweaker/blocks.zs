@@ -343,5 +343,16 @@ book_block.setTranslucent(true);
 book_block.setBlockLayer("CUTOUT");
 book_block.register();
 
+var ionsourcetexture = VanillaFactory.createBlock("texture_block_1", <blockmaterial:iron>);
+ionsourcetexture.setBlockSoundType(<soundtype:metal>);
+ionsourcetexture.register();
+
+var controllertexture = VanillaFactory.createBlock("texture_block_2", <blockmaterial:iron>);
+controllertexture.setBlockSoundType(<soundtype:metal>);
+controllertexture.register();
+
+var controllertextureactive = VanillaFactory.createBlock("texture_block_3", <blockmaterial:iron>);
+controllertextureactive.setBlockSoundType(<soundtype:metal>);
+controllertextureactive.register();
 ##########################################################################################
 print("==================== end of blocks.zs ====================");
