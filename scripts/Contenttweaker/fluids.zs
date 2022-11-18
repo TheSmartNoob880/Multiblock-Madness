@@ -186,5 +186,13 @@ neutronium.viscosity = 100;
 //neutronium.flowingLocation = "contenttweaker:fluids/condensed_aetherium";
 neutronium.material = <blockmaterial:lava>;
 neutronium.register();
+
+var moltenWill = VanillaFactory.createFluid("molten_demon_will", Color.fromHex("49888B"));
+moltenWill.temperature = 300;
+moltenWill.gaseous = false;
+moltenWill.luminosity = 15;
+moltenWill.stillLocation = "contenttweaker:fluids/molten_will_still";
+moltenWill.flowingLocation = "contenttweaker:fluids/molten_will_flow";
+moltenWill.register();
 ##########################################################################################
 print("==================== end of fluids.zs ====================");
